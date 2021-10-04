@@ -1,0 +1,29 @@
+#main:
+#  - title: "Quick-Start Guide"
+#    url: /docs/quick-start-guide/
+#  - title: "Posts"
+#    url: /year-archive/
+#  - title: "Categories"
+#    url: /categories/
+#  - title: "Tags"
+#    url: /tags/
+#  - title: "Pages"
+#    url: /page-archive/
+
+main:
+#   - title: "Compute"
+#     url: /categories/compute/
+#   - title: "Networking"
+#     url: /categories/networking/
+#   - title: "Storage"
+#     url: /categories/storage/
+#   - title: "Encryption"
+#     url: /categories/encryption/
+#   - title: "Authentication"
+#     url: /categories/authentication/
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "About"
+    url: /about/

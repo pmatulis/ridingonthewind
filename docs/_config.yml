@@ -53,6 +53,20 @@ defaults:
       share: true
       related: false
 
+# The next two stanzas are to make individual category and tag indices to work.
+# Note that each category and tag will require its own file to be created
+# manually. This is needed because the 'jekyll-archives' plugin is not
+# installed due to some incompatibily with GitHub Pages. See files
+# '/categories/compute.md' and '/tags/focal.md' for examples.
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+
 #
 # Exclude from processing
 #
@@ -74,3 +88,6 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - _pages
